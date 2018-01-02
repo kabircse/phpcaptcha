@@ -1,2 +1,2 @@
-# phpcaptcha
-php based captcha
+# math-captcha
+Captcha library  in php

@@ -1,0 +1,30 @@
+{
+  "name": "phpcaptcha/captcha",
+	"type": "package",
+    "description": "PHP math captcha. Laravel supported",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mohammad Kabir Hossain",
+            "email": "kabir.cse10@gmail.com"
+        }
+    ],
+    "require": {
+		"php": ">=5.4.0"
+
+	},
+	"require-dev": {
+	},
+    "autoload": {
+        "psr-4": {
+            "Kabir\\Captcha\\": "src/"
+        }
+	},
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+	"prefer-stable": true
+}
